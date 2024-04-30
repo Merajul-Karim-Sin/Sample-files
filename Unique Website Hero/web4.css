@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;700&family=Montserrat:wght@400;500;700&family=Nunito:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&family=Poppins:wght@300;400;500;600&family=Quattrocento&family=Vidaloka&display=swap');
+/* font-family: 'Bebas Neue', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Quattrocento', serif;
+font-family: 'Vidaloka', serif; */
+
+.w4-nav1-left{
+    display: flex;
+}
+
+.w4-nav1-left a{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.w4-nav1-left a span{
+    margin-left: 16px;
+    color: #313131;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.w4-nav1-right a{
+    margin-left: 20px;
+}
+
+
+.w2-nav ul li a{
+    margin-left: 30px;
+    color: #313131;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.nav-underline{
+    width: 100%;
+    height: 10px;
+}
+
+.nav-underline::after{
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #909090;
+    display: block;
+}
+
+
+
+.w4-nav2-buton .Sign-In{
+    color: #F5993C;
+}
+
+
+.w4-nav2-buton .Sign-Up{
+    background-color: #F5993C;
+    border-radius: 30px;
+}
+
+/* section part  ####################################### */
+
+.w4-section{
+    position: relative;
+}
+
+.w4-secton-left h2{
+    width: 520px;
+    color: #313131;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 112px;
+    margin-bottom: 10px;
+    margin-top: 100px;
+}
+
+.w4-secton-left p{
+    width: 590px;
+    color: #909090;
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.w4-secton-buton .Shop{
+    background-color: #f6f5f5;
+    border-radius: 30px;
+    border: 1px solid black;
+    color: #000000;
+}
+
+
+.w4-secton{
+    display: flex;
+    justify-content: space-between;
+}
+
+.w4-secton-right .car-bg{
+    width: 690px;
+    margin-top: 80px;
+}
+
+
+.car{
+    width: 780px;
+    position: absolute;
+    left: 520px;
+    top: 98px;
+}
+
+.w4-secton-botom{
+    position: absolute;
+    bottom: -58px;
+    left: 0;
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: white;
+    border-radius: 96px;
+}
+
+.w4-botom-item h3{
+    color: #909090;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.w4-botom-item a{
+    display: flex;
+    align-items: center;
+}
+
+
+.w4-botom-item a span{
+    color: #313131;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 8px;
+}
+
+
+.search{
+    padding: 10px 30px;
+    background-color: #6ED4D4;
+    border-radius: 90px;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+footer{
+    background-color: white;
+}
+
+
+.w4-footer{
+    margin-top: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 110px;
+}
+
+.w4-footer h1{
+    color: #313131;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+.w4-footer h2{
+    color: #313131;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+.w4-footer h3{
+    color: #313131;
+    font-family: 'Vidaloka', serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+.w4-footer h4{
+    color: #313131;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+.w4-footer h5{
+    color: #313131;
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+.w4-footer h6{
+    color: #313131;
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+

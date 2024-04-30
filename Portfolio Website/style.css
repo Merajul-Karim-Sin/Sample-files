@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Space+Grotesk:wght@400;500;600&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    color: #85D3F0;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color: #040826;
+}
+
+nav{
+    background-color: #000C66;
+}
+
+.contanar{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.leftpart{
+    display: flex;
+    align-items: center;
+}
+
+.leftpart img{
+    margin-right: 24px;
+
+}
+
+.leftpart ul{
+    display: flex;
+    list-style: none;
+}
+
+.leftpart ul li a{
+    color: #C2EFFF;
+    margin-right: 24px;
+    font-size: 18px;
+    line-height: 140%;
+}
+
+.rightpart a{
+    margin-right: 8px;
+}
+
+/* banner part  */
+
+.banner{
+    margin-top: 104px;
+}
+
+.bn-head{
+    margin-bottom: 103px;
+}
+
+.bn-head h5{
+    font-size: 18px;
+    color: #85D3F0;
+    line-height: 100%;
+    font-family: Space Grotesk;
+    font-weight: 300;
+    margin-bottom: 16px;
+}
+
+.bn-head h1{
+    font-size: 94px;
+    line-height: 100%;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.authar{
+    display: flex;
+    align-items: center;
+    width: 413px;
+}
+
+.authar img{
+    width: 64px;
+    margin-right: 16px;
+}
+
+.authar p{
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.cover-img img{
+    width: 100%;
+    margin-bottom: 104px;
+}
+
+/* header-botom  */
+
+
+.compani{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px;
+    margin-bottom: 104px;
+}
+
+.compani img{
+    cursor: pointer;
+}
+
+
+/* section part  */
+
+.section-heding h5{
+    font-size: 18px;
+    color: #85D3F0;
+    line-height: 100%;
+    font-family: Space Grotesk;
+    font-weight: 300;
+    margin-bottom: 8px;
+}
+
+.section-heding h3{
+    font-size: 36px;
+    line-height: 100%;
+    font-family: Space Grotesk;
+    color: #C2EFFF;
+    margin-bottom: 80px;
+}
+
+.all-products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 104px;
+}
+
+.Products{
+    margin-bottom: 24px;
+}
+
+.Products h4{
+    color: #C2EFFF;
+    font-family: Space Grotesk;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+
+.Products p{
+    color: #85D3F0;
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-bottom: 8px;
+}
+
+
+.buton a{
+    background-color: #000C66;
+    padding: 4px 16px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+
+
+
+/* footer part  */
+
+
+.footer-part{
+    background-color: #000C66;
+    padding: 115px 0;
+}
+
+
+.footer-part h3{
+    color: #C2EFFF;
+    text-align: center;
+    font-family: Space Grotesk;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.footer-head p{
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    color: #85D3F0;
+    margin-bottom: 31px;
+}
+
+.footer-head{
+    width: 687px;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer-icon{
+    display: flex;
+}
+
+
+.footer-icon a{
+    display: flex;
+    align-items: center;
+    padding: 16px 11%;
+    background-color: #0000FF;
+    margin: 0 auto;
+}
+
+
+.copy-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #85D3F0;
+    font-family: Space Grotesk;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    padding: 32px 48px;
+}

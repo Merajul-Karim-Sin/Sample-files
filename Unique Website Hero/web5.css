@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;700&family=Montserrat:wght@400;500;700&family=Nunito:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&family=Poppins:wght@300;400;500;600&family=Quattrocento&family=Vidaloka&display=swap');
+/* font-family: 'Bebas Neue', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Quattrocento', serif;
+font-family: 'Vidaloka', serif; */
+
+
+body{
+    position: relative;
+    background-color: white;
+}
+
+
+
+.w5-nav-right a{
+    margin-left: 100px;
+}
+
+.bg-color{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -5;
+    width: 50vw;
+    height: 60vw;
+}
+
+
+.bg-color::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background-color: #DEDAD5;
+}
+
+
+/* section part ####################################### */
+
+
+
+.w5-text h2{
+    width: 705px;
+    color: #424241;
+    font-family: 'Playfair Display', serif;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 96px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+
+.w5-text p{
+    width: 637px;
+    color: #424241;
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    margin-bottom: 100px;
+}
+
+
+
+.w5-section-right{
+    position: absolute;
+    top: 132px;
+    right: 126px;
+    z-index: -2;
+    display: flex;
+}
+
+.w5-section-right .img{
+    width: 420px;
+    margin-left: 100px;
+}
+
+
+.w5-section-botom{
+    width: 600px;
+    margin-top: 230px;
+}
+
+.w5-botom-right{
+    position: absolute;
+    top: 590px;
+    right: 157px;
+    width: 350px;
+    height: 310px;
+    padding: 32px;
+    background-color: white;
+    /* border: 1px solid; */
+}
+
+
+.w5-botom-right h4{
+    color: #424241;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 24px;
+}
+
+
+.w5-icon{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 45px;
+}
+
+.w5-icon h3{
+    width: 200px;
+    margin-left: 28px;
+    color: #424241;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}

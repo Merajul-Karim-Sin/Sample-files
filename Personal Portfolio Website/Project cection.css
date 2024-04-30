@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&family=Playfair+Display:wght@500&family=Raleway:wght@300;400&family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    outline: 0px;
+}
+
+/* font-family: 'Nunito', sans-serif; */
+
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    list-style: none;
+    color: black;
+}
+body{
+    background-color: #f9faff;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 1200px;
+    margin: 0 auto; */
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a{
+    margin: 14px 24px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* #details{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 38px;
+} */
+/* banner section */
+.banner{
+    /* padding: 100px 0; */
+    background-image: url("img/about.png");
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* margin: 50px;
+    margin-right: 100px; */
+    
+}
+.banner .left-part{
+    width: 500px;
+}
+
+.banner .left-part h3{
+    font-size: 20px;
+    color: #FDC435;
+    font-family: 'Nunito', sans-serif;
+}
+
+.banner .left-part h1{
+    font-size: 64px;
+    font-family: 'Playfair Display', serif;
+}
+
+.banner .left-part p{
+    font-size: 24px;
+    color: gray;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 32px;
+}
+.button .pro{
+    background-color: #FDC435;
+    padding: 8px 24px;
+    border-radius: 8px;
+    margin-right: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+.button .linkedin{
+    background-color: white;
+    padding: 7px 23px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+}
+.button{
+    margin-top: 32px;
+}

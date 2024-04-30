@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 11;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 14px 0;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li a{
+    margin: 14px 24px;
+
+}
+.banner{
+    position: relative;
+    padding: 100px 0;
+    /* width: 400px; */
+    background-image: url(image.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.banner .left-part{
+    width: 500px;
+}
+
+.banner .left-part h3{
+    font-size: 20px;
+    color: #FDC435;
+    font-family: 'Nunito', sans-serif;
+}
+
+.banner .left-part h1{
+    font-size: 64px;
+    font-family: 'Playfair Display', serif;
+}
+
+.banner .left-part p{
+    font-size: 24px;
+    color: gray;
+    font-family: 'Nunito', sans-serif;
+}
+
+.button .projects{
+    background-color: #FDC435;
+    padding: 8px 24px;
+    border-radius: 8px;
+    margin-right: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+.button .linkedin{
+    background-color: white;
+    padding: 7px 23px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+}
+.button{
+    margin-top: 32px;
+}

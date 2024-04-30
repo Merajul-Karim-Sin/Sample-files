@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;700&family=Montserrat:wght@400;500;700&family=Nunito:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&family=Poppins:wght@300;400;500;600&family=Quattrocento&family=Vidaloka&display=swap');
+/* font-family: 'Bebas Neue', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Quattrocento', serif;
+font-family: 'Vidaloka', serif; */
+
+body{
+    background-image: url(img/background6.png);
+}
+
+.w6-nav ul li a{
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+
+.w6-section{
+    display: flex;
+}
+
+.w6-section img{
+    width: 732px;
+    margin-top: 30px;
+}
+
+
+.w6-section-left{
+    width: 755px;
+}
+
+
+.w6-section-left h3{
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    margin-top: 40px;
+}
+.w6-section-left h1{
+    color: #333;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 120px;
+    font-weight: 400;
+    line-height: 120px;
+    margin-bottom: 16px;
+}
+
+.w6-section-left span{
+    color: #DC0155;
+}
+.w6-section-left p{
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-bottom: 45px;
+}
+.w6-section-left a{
+    color: #F4F3F8;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 15px 30px;
+    background-color: #DC0155;
+    border-radius: 30px;
+}
+
+
+
+/* footer part ################################### */
+
+
+.w6-footer h5{
+    color: #333;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 45px;
+}
+
+
+.w6-footer-items{
+    display: flex;
+}
+
+.w6-footer-item{
+    margin-right: 100px;
+}
+
+.w6-footer-item img{
+    margin-bottom: 24px;
+}
+
+.w6-footer-item h6{
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.w6-footer-item p{
+    width: 300px;
+    color: #909090;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}

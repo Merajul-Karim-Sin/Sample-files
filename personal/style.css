@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200;300;400&family=Tilt+Prism&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Poppins", sans-serif;
+    color: #222222;
+    line-height: 1.2em !important;
+    font-weight: 600;
+}
+
+body{
+    color: #777777;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+}
+
+.section-head{
+    background-color: #f8f8f8;
+}
+
+.containar{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* Header part ---------------------------- */
+header{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+header .containar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
+    /* border: 1px solid rebeccapurple; */
+}
+
+.banner .img{
+    margin: 0px;
+}
+
+.nav ul{
+    display: flex;
+}
+
+.nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0 10px;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.nav ul li a{
+    font-weight: 500;
+    text-decoration: none;
+    color: #222222;
+}
+
+.nav ul li a:hover{
+    color: #62bdfc;
+}
+
+
+/* Banner part ------------------------------------ */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding-top: 212px;
+}
+
+.banner-left{
+    /* padding: 15px; */
+    margin-top: 120px;
+    width: 570px;
+}
+
+.banner-left h3{
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.banner-left h2{
+    margin: 20px 0;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.banner-left p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-family: "Poppins", sans-serif;
+    color: #777;
+}
+
+.banner-left a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    line-height: 42px;
+    color: #fff;
+    font-weight: 500;
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    border: none;
+}
+
+.banner-left a:hover{
+    box-shadow: -2px 15px 40px -10px rgb(162, 161, 161);
+    transition: ease-in-out 0.4s ;
+}
+
+.banner .img{
+    padding-right: 60px;
+}
+
+
+/* section-tel part --------------- */
+
+
+.section-tel .containar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.section-tel .img2{
+    /* width: 540px; */
+    padding-right: 45px;
+}
+
+.section-tel .banner-left{
+    margin-top: 50px;
+    padding-left: 45px;
+}
+
+.section-tel .banner-left h2{
+    font-size: 36px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.section-tel .banner-left p{
+    margin-bottom: 30px;
+    max-width: 445px;
+}
+
+
+/* section-3 ------------------- */
+
+.section-3{
+    padding: 120px 0;
+}
+
+.section-3 .head{
+    width: 634px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-3 .head h2{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.section-3 .head p{
+    margin-bottom: 16px;
+}
+
+
+.item{
+    margin-top: 60px;
+    width: 349px;
+    text-align: center;
+}
+
+.item a svg{
+    height: 40px;
+    width: 40px;
+    color: #222222;
+}
+
+.item h3{
+    margin-bottom: 20px;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.item p{
+    width: 318px;
+}
+
+.catagoris-item{
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 30px; */
+    justify-content: space-around;
+}
+
+.section-4{
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+}
+
+.section-4 .containar{
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 30px;
+}
+
+.section-4 .containar h4{
+    font-size: 36px;
+    text-align: center;
+    color: #fff;
+}
+
+.section-4 .containar p{
+    color: #fff;
+}
+
+
+.project{
+    text-align: center;
+    padding-top: 120px;
+}
+
+.project nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.project nav ul li a{
+    text-decoration: none;
+    padding: 18px 15px;
+    color: #222222;
+    font-weight: 500;
+}
+
+.project h3{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.project p{
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.project .head-2{
+    padding-bottom: 70px;
+}
+
+.project .items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
+.price-plet{
+    text-align: center;
+}
+
+.head-3{
+    padding: 0 15px;
+    padding-bottom: 70px;
+}
+
+.price-plet h3{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.price-plet p{
+    margin-bottom: 16px;
+}

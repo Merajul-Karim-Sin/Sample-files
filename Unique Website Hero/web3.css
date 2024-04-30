@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&family=Poppins:wght@300;400;500;600&family=Quattrocento&display=swap');
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Quattrocento', serif; */
+body{
+    /* background-color: #C4C4C4; */
+    background-image: url(img/web3\ background.png);
+}
+
+.w3-nav ul li a{
+    color: #303030;
+    font-family: 'Quattrocento', serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.w3-sochial a{
+    margin-left: 50px;
+}
+
+
+.w3-section h1{
+    text-align: center;
+    color: #303030;
+    text-shadow: 0px 24px 50px rgba(0, 0, 0, 0.10);
+    font-family: 'Oswald', sans-serif;
+    font-size: 96px;
+    font-weight: 500;
+    line-height: 100px;
+    margin-top: 30px;
+}
+
+
+.w3-service{
+    display: flex;
+}
+
+.avatar{
+    display: flex;
+}
+
+
+.avatar h4{
+    color: #303030;
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.w3-section-left{
+    margin-top: 100px;
+}
+
+.w3-icon{
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.w3-icon img{
+    padding: 5px;
+    background-color: white;
+    margin-right: 16px;
+}
+
+
+.w3-icon h3{
+    color: #303030;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.image{
+    width: 500px;
+    height: 600px;
+    margin-left: 150px;
+    margin-right: 40px;
+}
+
+.avatar p{
+    width: 240px;
+    color: #909090;
+    font-family: 'Quattrocento', serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 30px;
+}
+
+.w3-section-right{
+    width: 408px;
+    margin-top: 100px;
+}
+
+.w3-section-right h5{
+    color: #303030;
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+
+.w3-section-right p{
+    width: 360px;
+    color: #909090;
+    font-family: 'Quattrocento', serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.w3-buton{
+    color: #F6F6F6;
+    font-family: 'Quattrocento', serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    padding: 10px 30px;
+    background-color: #303030;
+}
+
+.section-left-botom{
+    width: 343px;
+    margin-top: 70px;
+}
+
+
+.w3-botom h5{
+    color: #303030;
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.w3-botom h6{
+    color: #909090;
+    font-family: 'Quattrocento', serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

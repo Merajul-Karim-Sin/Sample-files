@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&family=Playfair+Display:wght@500&family=Raleway:wght@300;400&family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    outline: 0px;
+}
+
+/* font-family: 'Nunito', sans-serif; */
+
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    list-style: none;
+    color: black;
+}
+html body{
+    background-color: #f9faff;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 11;
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 1200px;
+    margin: 0 auto; */
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a{
+    margin: 14px 24px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.logo{
+    height: 40px;
+    width: 40px;
+}
+
+/* banner section */
+.banner{
+    position: relative;
+    padding: 100px 0;
+    background-image: url("img/image.png");
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.banner .left-part{
+    width: 500px;
+}
+
+.banner .left-part h3{
+    font-size: 20px;
+    color: #FDC435;
+    font-family: 'Nunito', sans-serif;
+}
+
+.banner .left-part h1{
+    font-size: 64px;
+    font-family: 'Playfair Display', serif;
+}
+
+.banner .left-part p{
+    font-size: 24px;
+    color: gray;
+    font-family: 'Nunito', sans-serif;
+}
+.button .pro{
+    background-color: #FDC435;
+    padding: 8px 24px;
+    border-radius: 8px;
+    margin-right: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+.button .linkedin{
+    background-color: white;
+    padding: 7px 23px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+}
+.button{
+    margin-top: 32px;
+}
+
+/* Peojects part  */
+
+section.project{
+    padding: 100px 0;
+}
+
+section.project .section-head h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    color: #25282B;
+    position: relative;
+    text-align: center;
+}
+
+section.project .section-head h2::after{
+    /* FDC435 */
+    content: "";
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 100%;
+    width: 100px;
+    height: 4px;
+    background-color: #FDC435;
+    border-radius: 2px;
+}
+
+.section-head{
+    margin-bottom: 80px;
+}
+
+.projects{
+    display: flex;
+    /* padding: 0 100px; */
+    width: 900px;
+    margin: 0 auto;
+    border-radius: 24px;
+    overflow: hidden;
+    /* padding-bottom: 80px; */
+    background-color: white;
+    margin-bottom: 80px;
+}
+
+.projects .deatails, .projects .image{
+    flex-shrink: 0;
+    width: 50%;
+}
+
+.projects .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.deatails{
+    padding-left: 50px;
+    padding-right: 40px;
+    padding-top: 145px;
+    padding-bottom: 145px;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.deatails h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    color: #25282B;
+}
+
+.deatails p{
+    font-family: 'Nunito', sans-serif;
+    color: #828282;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.deatails a{
+    font-family: 'Roboto', sans-serif;
+    color: #25282B;
+    font-size: 18px;
+    border: 1.5px solid;
+    padding: 8px 24px;
+    border-radius: 24px;
+}
+
+/* icon part */
+
+
+.container .icon{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-bottom: 32px;
+}
+
+footer p{
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+
+footer .container{
+    height: 102px;
+    width: 192px;
+    margin-bottom: 80px;
+}
+
+.container .icon li a{
+    width: 48px;
+    box-sizing: border-box;
+}
+
+
+/* About cection */
+
+.about-banner{
+    position: relative;
+    padding: 100px 0;
+}
+
+#details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#details .about-left-part{
+    width: 500px;
+}
+
+.about-left-part h1{
+    font-size: 64px;
+    font-family: 'Playfair Display', serif;
+}
+
+.about-left-part p{
+    font-size: 24px;
+    color: gray;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 32px;
+}
+
+.about-button .resume{
+    background-color: #FDC435;
+    padding: 8px 24px;
+    border-radius: 8px;
+    margin-right: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.about-button{
+    margin-top: 32px;
+}
+

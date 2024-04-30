@@ -1,0 +1,9 @@
+@media (max-width=430px){
+    .section1{
+        display: grid;
+        grid-template-columns: 200px 200px;
+    }
+    .section1_right{
+        grid-row-start: 3;
+    }
+}
